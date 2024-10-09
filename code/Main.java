@@ -12,10 +12,17 @@ public static void main(String[] args) {
     r2.getArea();
     r2.getLength();
 
-    Car c1 = new Car();
-    c1.setMaker("Toyota");
-    c1.setModel(2020); 
-    System.out.println(c1.getMaker());
-    System.out.println(c1.getModel());
+    // Car c1 = new Car();
+    // c1.setMaker("Toyota");
+    // c1.setModel(2020); 
+    // System.out.println(c1.getMaker());
+    // System.out.println(c1.getModel());
+
+    // Rectangle r3 = new Rectangle(20,25);
+    // System.out.println(r3.getLength());
+    // System.out.println(r3.getWidth());
+
+    Employee e1 = new Employee();
+    e1.print_emp_data();
 }
 }
